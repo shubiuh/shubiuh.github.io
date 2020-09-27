@@ -1,24 +1,35 @@
 @article{zeng2018novel,
+  abbr={JAP},
   title={A novel 2.5 D finite difference scheme for simulations of resistivity logging in anisotropic media},
   author={Zeng, Shubin and Chen, Fangzhou and Li, Dawei and Chen, Ji and Chen, Jiefu},
   journal={Journal of Applied Geophysics},
   volume={150},
   pages={144--152},
   year={2018},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  abstract={The objective of this study is to develop a method to model 3D resistivity well logging problems in 2D formation with anisotropy, known as 2.5D modeling. The traditional 1D forward modeling extensively used in practice lacks the capability of modeling 2D formation. A 2.5D finite difference method (FDM) solving all the electric and magnetic field components simultaneously is proposed. Compared to other previous 2.5D FDM schemes, this method is more straightforward in modeling fully anisotropic media and easy to be implemented. Fourier transform is essential to this FDM scheme, and by employing Gauss-Legendre (GL) quadrature rule the computational time of this step can be greatly reduced. In the numerical examples, we first demonstrate the validity of the FDM scheme with GL rule by comparing with 1D forward modeling for layered anisotropic problems, and then we model a complicated 2D formation case and find that the proposed 2.5D FD scheme is much more efficient than 3D numerical methods.},
+  doi={10.1016/j.jappgeo.2018.01.021},
+  html={https://www.sciencedirect.com/science/article/pii/S0926985117305980},
+  pdf={Papers/2.5D FDM.pdf},
 }
 
 @article{chen2017rapid,
+  abbr={JAP},
   title={Rapid simulation of electromagnetic telemetry using an axisymmetric semianalytical finite element method},
   author={Chen, Jiefu and Zeng, Shubin and Dong, Qiuzhao and Huang, Yueqin},
   journal={Journal of Applied Geophysics},
   volume={137},
   pages={49--54},
   year={2017},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  abstract={An axisymmetric semianalytical finite element method is proposed and employed for rapid simulations of electromagnetic telemetry in layered underground formation. In this method, the layered media is decomposed into several subdomains and the interfaces between subdomains are discretized by conventional finite elements. Then a Riccati equation based high precision integration scheme is applied to exploit the homogeneity along the vertical direction in each layer. This semianalytical finite element scheme is very efficient in modeling electromagnetic telemetry in layered formation. Numerical examples as well as a field case with water based mud as drilling fluid are given to demonstrate the validity and effectiveness of this method.},
+  doi={10.1016/j.jappgeo.2016.12.006},
+  html={https://www.sciencedirect.com/science/article/pii/S0926985116306127},
+  pdf={Papers/semianalytical FEM 1.pdf}
 }
 
 @article{chen2017hybridizing,
+  abbr={GEOPHYSICS},
   title={Hybridizing semianalytical and conventional finite-element schemes for simulations of electromagnetic borehole resistivity measurement},
   author={Chen, Jiefu and Zeng, Shubin},
   journal={Geophysics},
@@ -26,7 +37,11 @@
   number={1},
   pages={E17--E26},
   year={2017},
-  publisher={Society of Exploration Geophysicists}
+  publisher={Society of Exploration Geophysicists},
+  doi={10.1190/geo2015-0628.1},
+  abstract={A semianalytical finite-element method (FEM) has been developed to simulate electromagnetic borehole resistivity measurements in a layered underground formation. A piecewise homogeneous structure is divided into several layers. Each layer is uniform in the longitudinal direction, and the distributions of geometry and material can be arbitrary on the transverse plane, or cross section, of the layer. To develop this semianalytical finite-element scheme, the standard functional corresponding to the vector wave equation is cast to a new form in the Hamiltonian system based on dual variables that are the transverse components of electric and magnetic fields on the cross section of the layer. The 2D finite elements are used to discretize the cross section, and a high-precision integration scheme based on the Riccati equations is used to exploit the longitudinal homogeneity in the layer. By transforming a 3D layered problem into a series of 2D problems, this semianalytical FEM can save a great amount of computational costs and meanwhile achieve a higher level of accuracy when compared with conventional finite-element schemes. The flexibility of this semianalytical method can be greatly increased by hybridization with conventional finite elements, and this strategy works well for layered structures with local inhomogeneities such as borehole washouts. Several tests, including near-bit resistivity measurement and wave propagation resistivity logging, verified the effectiveness of this semianalytical FEM.},
+  html={https://library.seg.org/doi/10.1190/geo2015-0628.1},
+  pdf={Papers/semianalytical FEM 2.pdf}
 }
 
 @article{zeng2018fast,
@@ -36,27 +51,39 @@
   volume={166},
   pages={242--248},
   year={2018},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  doi={0.1016/j.petrol.2018.03.025},
+  abstract={Electromagnetic (EM) telemetry systems are widely used for measurement-while-drilling (MWD), especially in unconventional drilling. In this paper, a numerical method for the simulation of EM telemetry systems in deviated and horizontal drilling is introduced. The underground formation is assumed to be horizontally layered media, and the long, metal drill string acts as an antenna that may be treated as a thin wire excited by a gap voltage source located near the drill bit. The numerical model employs the electric field integral equation (EFIE) and the method of moments (MoM) to obtain a linear system for the axial current distribution on the drill string, which is subdivided into several one-dimensional segments. By using the thin wire kernel, near-field interactions can be evaluated accurately and efficiently, while also reducing problem dimensionality and singularity order of the homogeneous medium contribution to the layered medium Green's function (LMGF). The latter typically takes the form of a dyadic spectral domain integral, the asymptotics of whose integrands may be estimated and combined with Kummer's method to accelerate its evaluation, with the asymptotic correction terms evaluated in closed or easily evaluated forms. Numerical results are presented to verify the fast and accurate performance of the proposed approach. Results for signal voltage receivability by a surface antenna are also presented and discussed.},
+  html={https://www.sciencedirect.com/science/article/abs/pii/S0920410518302109},
+  pdf={Papers/EM telemetry 2.pdf}
 }
 
 @article{zeng2018multiscale,
+  abbr={JMMCT},
   title={Multiscale modeling of electromagnetic telemetry in layered transverse isotropic formation},
   author={Zeng, Shubin and Wilton, Donald R and Chen, Jiefu},
   journal={IEEE Journal on Multiscale and Multiphysics Computational Techniques},
   volume={3},
   pages={266--276},
   year={2018},
-  publisher={IEEE}
+  publisher={IEEE},
+  abstract={Electromagnetic telemetry (EMT) systems are utilized for measurement while drilling to transmit data from borehole to the ground surface during drilling or vice versa. To help predict the successful deployment of the EMT system within complex formation and environmental noise, a reliable numerical algorithm is developed and applied to model the EMT system for directional drilling in layered transverse isotropic (TI) formation. In the telemetry system, the long and thin drill string having three-dimensional trajectory acts as an underground antenna that can be modeled as a thin wire excited by a delta gap voltage/current source near the drill bit. Using the thin wire assumption, the developed algorithm calculates the thin wire kernel in homogeneous uniaxial media with high accuracy to reduce the dimension and complexity of the problem. The mixed-potential form of layered media Green's function and electric field integral equation are used to model the electromagnetic interaction of the drill string and layered TI media. The effect of drilling fluid outside the pipe is modeled using the volumetric equivalence principle. The accuracy and efficiency of the new algorithm are demonstrated by several numerical examples.},
+  html={https://ieeexplore.ieee.org/document/8594600/},
+  pdf={Papers/EM telemetry 1.pdf}
 }
 
 @book{chen2019borehole,
+  abbr={Springer},
   title={Borehole Electromagnetic Telemetry System: Theory, Modeling, and Applications},
   author={Chen, Jiefu and Zeng, Shubin and Huang, Yueqin},
   year={2019},
-  publisher={Springer}
+  publisher={Springer},
+  abstract={This book explains the theory, numerical modeling, and applications of a borehole electromagnetic telemetry system used for wireless communication between the downhole tool and the surface control center during oilfield drilling.},
+  html={https://www.springer.com/gp/book/9783030215361}
 }
 
 @article{zeng2020fast,
+  abbr={IJNM},
   title={A fast MoM solver for wire-to-surface junctions in layered uniaxial media},
   author={Zeng, Shubin and Wilton, Donald R and Chen, Jiefu},
   journal={International Journal of Numerical Modelling: Electronic Networks, Devices and Fields},
@@ -64,15 +91,23 @@
   number={2},
   pages={e2690},
   year={2020},
-  publisher={Wiley Online Library}
+  publisher={Wiley Online Library},
+  html={https://onlinelibrary.wiley.com/doi/abs/10.1002/jnm.2690},
+  abstract={Wire‐to‐surface structures in layered uniaxial media are of great importance in practical applications. This paper presents the essential procedures to build a fast method of moments (MoM) solver for modeling wire‐to‐surface structures in layered uniaxial media. These procedures include the modeling of junctions, accelerated evaluation, and efficient interpolation of the layered media Green's function (LMGF), and thin‐wire modeling in layered uniaxial media. Three numerical examples are presented to demonstrate the accuracy and efficiency of our approach.},
+  doi={10.1002/jnm.2690},
+  pdf={Papers/MoM for junction in layered media.pdf}
 }
 
 @article{egarguin2020active,
+  abbr={WM},
   title={Active control of Helmholtz fields in 3D using an array of sources},
   author={Egarguin, Neil Jerome A and Zeng, Shubin and Onofrei, Daniel and Chen, Jiefu},
   journal={Wave Motion},
   volume={94},
   pages={102523},
   year={2020},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  abstract={In this paper, we present a strategy for the active manipulation of Helmholtz fields using an array (swarm) of coupling sources with prescribed fixed positions. More specifically, we consider the problem of using an array of active surface sources to approximate prescribed fields in several given exterior regions of space including possibly the far field region. In this regard, we extend the results presented in our previous works for the case of a single source to allow for multiple active sources considering the first-order mutual coupling between them. We prove the existence of boundary inputs on the sources (pressure or normal velocity), so that the desired control effect is obtained. We also devise a stable numerical scheme to compute these boundary inputs by using local basis functions defined on the source boundaries in a method of moments approach together with a Morozov discrepancy principle-based Tikhonov regularization. Several numerical simulations were presented to demonstrate the accuracy of the proposed scheme.},
+  html={https://www.sciencedirect.com/science/article/abs/pii/S0165212519302884},
+  pdf={Papers/Active control of Helmholtz fields in 3D using an array of sources.pdf}
 }
