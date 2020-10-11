@@ -68,10 +68,17 @@
       </d-title>
 
       <d-byline></d-byline>
-
-      <!-- <d-article> -->
+      {% if page.interactive == 'useHTML' %}
         {{ content }}
-      <!-- </d-article> -->
+      {% elsif page.interactive == 'useMD' %}
+       <d-article>
+        {{ content }}
+       </d-article>
+      {% else %}
+      <d-article>
+        {{ content }}
+      </d-article>
+      {% endif %}
 
     </div>
 

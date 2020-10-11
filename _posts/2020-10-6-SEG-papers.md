@@ -1,5 +1,6 @@
 ---
 layout: distill
+interactive: useMD
 title: SEG conference paper reading
 description: some interesting SEG papers I found
 date: 2020-10-06 11:59:00-0400
@@ -13,20 +14,12 @@ authors:
 bibliography: 2018-12-22-distill.bib
 
 _styles: >
-  .fake-img {
-    background: #bbb;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 12px;
+  .main-container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
   }
-  .fake-img p {
-    font-family: monospace;
-    color: white;
-    text-align: left;
-    margin: 12px 0;
-    text-align: center;
-    font-size: 16px;
-  }
+
 
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: distill
+interactive: useHTML
 title: Communicating with Interactive Articles
 description: Examining the design of interactive articles by synthesizing theory from disciplines such as education, journalism, and visualization.
 date: 2020-10-10
@@ -28,6 +29,7 @@ bibliography: 2020-10-10-bibliography.bib
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
 includestyles: interactivestyles.css
+
 ---
 <body>
   
